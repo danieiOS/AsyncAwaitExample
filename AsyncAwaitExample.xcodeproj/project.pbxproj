@@ -8,17 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		96386E992AEE9CB600D39B7F /* AsyncAwaitExampleApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96386E982AEE9CB600D39B7F /* AsyncAwaitExampleApp.swift */; };
-		96386E9B2AEE9CB600D39B7F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96386E9A2AEE9CB600D39B7F /* ContentView.swift */; };
+		96386E9B2AEE9CB600D39B7F /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96386E9A2AEE9CB600D39B7F /* HomeView.swift */; };
 		96386E9D2AEE9CB900D39B7F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96386E9C2AEE9CB900D39B7F /* Assets.xcassets */; };
 		96386EA02AEE9CB900D39B7F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 96386E9F2AEE9CB900D39B7F /* Preview Assets.xcassets */; };
+		96386EA72AEE9FA800D39B7F /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96386EA62AEE9FA800D39B7F /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		96386E952AEE9CB600D39B7F /* AsyncAwaitExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AsyncAwaitExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96386E982AEE9CB600D39B7F /* AsyncAwaitExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AsyncAwaitExampleApp.swift; sourceTree = "<group>"; };
-		96386E9A2AEE9CB600D39B7F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		96386E9A2AEE9CB600D39B7F /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		96386E9C2AEE9CB900D39B7F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		96386E9F2AEE9CB900D39B7F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		96386EA62AEE9FA800D39B7F /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +54,8 @@
 			isa = PBXGroup;
 			children = (
 				96386E982AEE9CB600D39B7F /* AsyncAwaitExampleApp.swift */,
-				96386E9A2AEE9CB600D39B7F /* ContentView.swift */,
+				96386E9A2AEE9CB600D39B7F /* HomeView.swift */,
+				96386EA62AEE9FA800D39B7F /* Task.swift */,
 				96386E9C2AEE9CB900D39B7F /* Assets.xcassets */,
 				96386E9E2AEE9CB900D39B7F /* Preview Content */,
 			);
@@ -137,7 +140,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96386E9B2AEE9CB600D39B7F /* ContentView.swift in Sources */,
+				96386E9B2AEE9CB600D39B7F /* HomeView.swift in Sources */,
+				96386EA72AEE9FA800D39B7F /* Task.swift in Sources */,
 				96386E992AEE9CB600D39B7F /* AsyncAwaitExampleApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
